@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name = "com.tutorialsninjaListeners.Listeners" />
+</listeners>
+
+  <test thread-count="5" name="Test">
+    <classes>
+     
+  
+      <class name="com.tutorialsninja.qa.testcases.LoginTest"/>
+      <class name="com.tutorialsninja.qa.testcases.CustomerServiceTest"/>
+      <class name="com.tutorialsninja.qa.testcases.HomePageVerificationTest"/>
+      <class name="com.tutorialsninja.qa.testcases.AddProductToCartTest"/>
+      <class name="com.tutorialsninja.qa.testcases.RegisterTest"/>   
+      <class name="com.tutorialsninja.qa.testcases.SearchProductTest"/> 
+      
+    
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
